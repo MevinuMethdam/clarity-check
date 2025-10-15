@@ -1,0 +1,88 @@
+body {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f7f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 20px;
+}
+
+header h1 {
+    color: #1a237e;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #555;
+    font-size: 1.1em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.card h2 {
+    color: #3949ab;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+.screenshot {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.summary {
+    font-style: italic;
+    color: #555;
+    background-color: #f9f9f9;
+    border-left: 4px solid #3949ab;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.recommendations ol {
+    padding-left: 20px;
+}
+
+.recommendations li {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #e0e0e0;
+    color: #777;
+}
+
+footer a {
+    color: #3949ab;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
